@@ -1,8 +1,7 @@
 # PrimaryFlightDisplay
 
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/PrimaryFlightDisplay.svg?style=flat-square)](https://cocoapods.org/pods/PrimaryFlightDisplay)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square)](https://github.com/Carthage/Carthage)
-[![Platform](https://img.shields.io/cocoapods/p/PrimaryFlightDisplay.svg?style=flat-square)](http://cocoadocs.org/docsets/PrimaryFlightDisplay)
+This fork is a Swift Package Manager implementation, with the bare minimum files.
+
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/kouky/MavlinkPrimaryFlightDisplay/blob/master/LICENSE)
 
 
@@ -33,32 +32,6 @@ The framework enables convenient embedding and animation of a primary flight dis
 
 ## Installation
 
-Build and install the framework using Cocoapods or Carthage.
-
-### CocoaPods
-
-[CocoaPods](http://cocoapods.org) is a dependency manager for iOS and MacOS projects. Follow the [getting started guide](https://guides.cocoapods.org/using/getting-started.html) to install it.
-
-Follow the using [cocoapods guide](https://guides.cocoapods.org/using/using-cocoapods) to install the `PrimaryFlightDisplay` pod in your project.
-
-### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate PrimaryFlightDisplay into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "kouky/PrimaryFlightDisplay"
-```
-
-Run `carthage update` to build the framework and drag the built `PrimaryFlightDisplay.framework` into your Xcode project.
 
 ## Usage
 
@@ -88,9 +61,6 @@ The styles for the default primary flight display are easily tuned, see [Setting
 
 ![Screenshot](http://kouky.org/assets/primary-flight-display/alternative-screenshot.png)
 
-## Example Project
-
-[MavlinkPrimaryFlightDisplay](https://github.com/kouky/MavlinkPrimaryFlightDisplay) is a Mac app which demonstrates how to integrate the PrimaryFlightDisplay framework for a [MAVLink](http://qgroundcontrol.org/mavlink/start) speaking autopilot. Clone the repo and follow the `README` to get the app running and connect to your autopilot.
 
 ## Contributing
 
